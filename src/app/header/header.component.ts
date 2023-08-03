@@ -7,7 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderComponent {
   @Input() parentProperty:any
+  @Input() profiles:any
 
   // name = "hello, im from child component"
 
 }
+
+

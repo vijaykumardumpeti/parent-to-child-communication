@@ -8,5 +8,11 @@
 <body>
     <h1>{{parentProperty}}</h1>
     <!-- <app-root [childProperty]="name"></app-root> -->
+
+    <div *ngFor="let profile of profiles" class="container">
+        <p>id: {{profile.id}}</p>
+        <p>name: {{profile.name}}</p>
+        <p>email: {{profile.email}}</p>
+    </div>
 </body>
 </html>
